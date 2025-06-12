@@ -1,0 +1,8 @@
+services:
+  http1:
+    build: .
+    container_name: http1
+
+  bdd1:
+    build: .
+    container_name: bdd1
